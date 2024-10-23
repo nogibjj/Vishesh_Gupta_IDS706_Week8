@@ -8,4 +8,4 @@ psutil==6.0.0
 
 #web
 fastapi==0.85.0         ## Web Framework for building APIs
-uvicorn==0.18.3         ## Web Server implementation
+uvicorn==0.18.3         ## Web Server implementationgi
