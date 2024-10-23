@@ -1,6 +1,7 @@
 # Vishesh_Gupta_IDS706_Week8
 
 [![CI](https://github.com/nogibjj/Vishesh_Gupta_IDS706_Week8/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Vishesh_Gupta_IDS706_Week8/actions/workflows/cicd.yml)
+[![Rust CI/CD Pipeline](https://github.com/nogibjj/Vishesh_Gupta_IDS706_Week8/actions/workflows/rust.yml/badge.svg)](https://github.com/nogibjj/Vishesh_Gupta_IDS706_Week8/actions/workflows/rust.yml)
 
 # Python to Rust Data Processing Conversion Project
 
