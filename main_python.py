@@ -36,6 +36,7 @@ def measure_performance(x):
     print(f"Running Time: {runtime:.6f} seconds")
     print(f"Memory Usage: {memory_used:.6f} MB")
 
+
 if __name__ == "__main__":
     data_input = list(range(1, 999))
     measure_performance(data_input)
