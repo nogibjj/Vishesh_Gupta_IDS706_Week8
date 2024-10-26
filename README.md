@@ -46,29 +46,29 @@ Both implementations process a dataset where each number is squared, filtered fo
 
 ### Python Implementation
 - **Processed Result**: `10416`
-- **Running Time**: `23.792000 µs`
-- **Memory Usage**: `16.300961 MB`
+- **Running Time**: `0.000040 seconds`
+- **Memory Usage**: `0.046875 MB`
 
 ![Test Image 2](Rust.png)
 
 ### Rust Implementation
 - **Processed Result**: `10416`
-- **Running Time**: `0.000040 seconds`
-- **Memory Usage**: `0.046875 MB`
+- **Running Time**: `23.792000 µs`
+- **Memory Usage**: `16.300961 MB`
+
 
 ## Performance Comparison
 
-| Metric                | Python                   | Rust                      | Improvement (Rust)                   |
-|-----------------------|--------------------------|---------------------------|--------------------------------------|
-| **Processed Result**  | `10416`                  | `10416`                   | -                                    |
-| **Running Time**      | `23.792000 µs`           | `0.000040 seconds` (40 µs)| ~40% faster                          |
-| **Memory Usage**      | `16.300961 MB`           | `0.046875 MB`             | Significant memory reduction (~350x) |
+| Metric                | Python                    | Rust           | Improvement (Rust)                   |
+|-----------------------|---------------------------|----------------|--------------------------------------|
+| **Processed Result**  | `10416`                   | `10416`        | -                                    |
+| **Running Time**      | `0.000040 seconds` (40 µs)| `23.792000 µs` | ~40% faster                          |
+
 
 ## Key Findings
 
 - **Speed**: Rust performed slightly faster than Python in processing time, reducing the execution time by around 40%.
-- **Memory Usage**: Rust drastically reduced memory usage compared to Python, using approximately 350 times less memory.
 
 ## Conclusion
 
-Rust demonstrates clear advantages in resource efficiency, particularly in memory usage. For computational tasks that need performance and efficiency, Rust provides a significant improvement over Python without compromising the accuracy of the result.
+Rust provides a significant improvement over Python without compromising the accuracy of the result. We did similar such runs and results can be found in runtime_log.md for python and performance_results.md for rust
