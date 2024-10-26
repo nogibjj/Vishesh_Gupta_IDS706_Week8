@@ -1,7 +1,6 @@
 import time
 import psutil
 
-
 def process_data(data):
 
     # We are squaring each number and filtering for values less than 100 and obtaining the sum of those numbers
