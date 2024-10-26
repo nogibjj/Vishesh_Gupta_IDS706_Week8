@@ -36,6 +36,11 @@ def measure_performance(x):
     print(f"Running Time: {runtime:.6f} seconds")
     print(f"Memory Usage: {memory_used:.6f} MB")
 
+    with open("runtime_log.md", "a") as log_file:
+        log_file.write(f"## Runtime Log for Python\n\n")
+        log_file.write(f"- Execution completed at: {time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())}\n")
+        log_file.write(f"- Runtime: {runtime:.10f} seconds\n")
+        log_file.write(f"- Memory Usage: {memory_used:.6f} MB\n\n")
 
 if __name__ == "__main__":
     data_input = list(range(1, 999))
